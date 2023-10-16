@@ -17,10 +17,12 @@ public class GroupofStudents implements Iterable<Student> {
 
 
     public List getNumberofStudents() {
+
         return numberofStudents;
     }
 
     public List setNumberofStudents(List numberofStudents) {
+
         return this.numberofStudents = numberofStudents;
     }
 
@@ -60,6 +62,7 @@ public class GroupofStudents implements Iterable<Student> {
     }
 
     public void addPerson(Student student) {
+
         numberofStudents.add(student);
     }
 }

@@ -4,11 +4,7 @@ import java.util.Comparator;
 
 public class StudentComporator implements Comparator<Student> {
 
-    /**
-     * @param firstStudent  the first object to be compared.
-     * @param secondStudent the second object to be compared.
-     * @return compare by NAME
-     */
+
     @Override
     public int compare(Student firstStudent, Student secondStudent) {
         return firstStudent.getName().compareTo(secondStudent.getName());

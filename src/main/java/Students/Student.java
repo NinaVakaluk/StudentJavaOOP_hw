@@ -1,12 +1,13 @@
 package Students;
 
-public class Student implements Comparable<Student> {
+public class Student  {
     private String Name;
     private String Surname;
     private int Age;
     private String nameOfGroup;
 
     public String getNameofGroup() {
+
         return nameOfGroup;
     }
 
@@ -18,14 +19,17 @@ public class Student implements Comparable<Student> {
     }
 
     public String getName() {
+
         return Name;
     }
 
     public String getSurname() {
+
         return Surname;
     }
 
     public int getAge() {
+
         return Age;
     }
 
@@ -39,13 +43,7 @@ public class Student implements Comparable<Student> {
                 '}';
     }
 
-    /**
-     * @param otherStudent the object to be compared.
-     * @return сравнение по длине имени.
-     */
-    @Override
-    public int compareTo(Student otherStudent) {
-        return this.Name.length() - otherStudent.getName().length();
-        //return this.Surname.length() - otherStudent.getSurname().length();
+
+
     }
-}
+
